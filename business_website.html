@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Island Rides & Photography</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #F5F5DC; color: #333; }
+    header { background: linear-gradient(rgba(0,191,165,0.7), rgba(0,191,165,0.7)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; }
+    header h1 { font-size: 3em; margin: 0; text-shadow: 2px 2px 8px #000; }
+    header p { font-size: 1.5em; font-style: italic; margin: 10px 0 20px 0; text-shadow: 1px 1px 5px #000; }
+    header button { background: #FFD700; color: #000; font-size: 1.2em; border: none; padding: 15px 30px; border-radius: 10px; cursor: pointer; transition: 0.3s; }
+    header button:hover { background: #FFC107; }
+    nav { background: #00BFA5; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    section h2 { text-align: center; color: #00BFA5; margin-bottom: 40px; }
+    .services { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .card { flex: 1 1 250px; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: 0.3s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+    #gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    #gallery img { width: 100%; border-radius: 12px; transition: 0.3s; }
+    #gallery img:hover { transform: scale(1.05); }
+    #testimonials .card { background: #00BFA5; color: white; }
+    #why-us ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    #why-us li { background: #FFD700; padding: 15px 25px; border-radius: 10px; font-weight: bold; }
+    footer { background: #00BFA5; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Luxe Island Rides & Photography</h1>
+    <p>"Ride in Luxury. Explore in Style. Capture Every Moment."</p>
+    <button onclick="window.location.href='#contact'">Book Now</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#why-us">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide premium taxi services, airport transfers, guided tours, and professional photography across Jamaica. Travel in comfort and style while capturing unforgettable memories.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Taxi Services</h3>
+        <p>Reliable and comfortable taxi services available 24/7 for local and long-distance travel.</p>
+      </div>
+      <div class="card">
+        <h3>Airport Transfers</h3>
+        <p>On-time and hassle-free airport pickup and drop-off with professional drivers.</p>
+      </div>
+      <div class="card">
+        <h3>Tours & Photography</h3>
+        <p>Guided tours combined with professional photography to capture unforgettable moments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1" alt="Tour Photo">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Taxi Service">
+    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308" alt="Jamaica Scenic">
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="services">
+      <div class="card"><p>“Amazing service — punctual and very friendly!”</p></div>
+      <div class="card"><p>“The tour and photos were unforgettable. Highly recommended!”</p></div>
+    </div>
+  </section>
+
+  <section id="why-us">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>24/7 Reliable Taxi Service</li>
+      <li>On-Time Airport Transfers</li>
+      <li>Customizable Guided Tours</li>
+      <li>Professional Photography Included</li>
+      <li>Friendly & Experienced Drivers</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: luxeridesjamaica@email.com</p>
+    <p>Phone: +1 876 000 0000</p>
+    <p>WhatsApp: <a href="https://wa.me/18760000000" style="color:#FFD700; font-weight:bold;">Chat Now</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Luxe Island Rides & Photography — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
